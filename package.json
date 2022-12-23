@@ -1,0 +1,19 @@
+{
+  "name": "login-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shy0215/login-temp.git"
+  },
+  "author": "shy_0215",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shy0215/login-temp/issues"
+  },
+  "homepage": "https://github.com/shy0215/login-temp#readme"
+}
