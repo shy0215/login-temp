@@ -2,6 +2,13 @@ const express = require('express')
 const app = express()
 const port = 5000
 
+const mongoose = require('mongoose')
+mongoose.connect('mongodb+srv://shy_0215:12345@login-temp.g5pfoy1.mongodb.net/?retryWrites=true&w=majority'
+).then(()=> console.log('MongoDB connected...'))
+ .catch(err => console.log(err))
+
+
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
